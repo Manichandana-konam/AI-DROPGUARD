@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI DropGuard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🚰 AI DropGuard</h1>
+
+<label>Flow Rate</label><br>
+<input type="number" id="flow"><br><br>
+
+<label>Duration</label><br>
+<input type="number" id="duration"><br><br>
+
+<label>Presence</label><br>
+<select id="presence">
+    <option value="1">Yes</option>
+    <option value="0">No</option>
+</select>
+
+<br><br>
+
+<button onclick="predict()">Predict</button>
+
+<h2 id="result"></h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
